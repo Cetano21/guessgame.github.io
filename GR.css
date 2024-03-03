@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Madimi One", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #ff1493;
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid aqua;
+}
+.againbetween {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 4.5rem;
+  background: linear-gradient(aqua, pink);
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  text-align: center;
+  padding: 1rem;
+  border: 4px solid #000000;
+}
+.number {
+  display: flex;
+  position: absolute;
+  font-size: 11rem;
+  color: black;
+  justify-content: center;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  border-radius: 40px;
+  background-color: aqua;
+  border: 6px solid #000000;
+}
+.between {
+  font-size: 3rem;
+  margin: 2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, aqua, pink);
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;
+  border: 4px solid #000000;
+}
+.btn {
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 800;
+  border: 4px solid #000000;
+  background: linear-gradient(to left, aqua, pink);
+  border-radius: 20px;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600;
+}
+.message {
+  margin-bottom: 5rem;
+  background: linear-gradient(to right, aqua, pink);
+  border-radius: 20px;
+  border: 4px solid #000000;
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.scoreN {
+  margin-left: 2rem;
+  font-size: 3.3rem;
+}
+.highscoreN {
+  margin-left: 2rem;
+  font-size: 3.3rem;
+}
+.check {
+  width: 20rem;
+  height: 7rem;
+}
+.guess {
+  height: 10rem;
+  width: 15rem;
+  font-size: 8rem;
+  border-radius: 30px;
+  text-align: center;
+  outline: none;
+  border: 4px solid #000000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.scorehigh {
+  background: linear-gradient(to right, aqua, pink);
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 1rem;
+  width: 27rem;
+}
+.pic {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
