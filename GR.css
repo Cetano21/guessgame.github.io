@@ -138,8 +138,8 @@ input::-webkit-inner-spin-button {
   margin-bottom: 2rem;
 }
 
-/* MOBILE */
-@media (max-width: 34em) {
+/* MOBILE big */
+@media (max-width: 43em) {
   .left {
   }
   .right {
@@ -210,6 +210,84 @@ input::-webkit-inner-spin-button {
     font-size: 2.5rem;
     width: 20rem;
     height: 10rem;
+    top: 55%;
+  }
+}
+
+/* MOBILE small */
+@media (max-width: 36em) {
+  .right {
+    width: 1rem;
+    height: 1rem;
+  }
+  .pic {
+    position: absolute;
+    width: 7rem;
+    height: 6rem;
+    top: 56%;
+    right: 34%;
+  }
+  .guess {
+    text-align: start;
+    width: 13rem;
+    height: 7rem;
+    font-size: 4.3rem;
+  }
+  .scorehigh {
+    width: 20rem;
+    height: 10rem;
+  }
+  .number {
+    font-size: 8rem;
+    height: 12rem;
+    width: 8rem;
+  }
+  .scheck {
+    width: 20rem;
+    height: 10rem;
+  }
+  .message {
+    position: absolute;
+    font-size: 1.7rem;
+    width: 25rem;
+    height: 7rem;
+    top: 43%;
+    left: 16%;
+  }
+  .main {
+    width: 20rem;
+    height: 10rem;
+  }
+  .again {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    width: 10rem;
+    height: 6rem;
+  }
+  .between {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    width: 16rem;
+    height: 6rem;
+  }
+  .score,
+  .scoreN,
+  .highscoreN,
+  .highscore {
+    font-size: 2.2rem;
+  }
+  .scorehigh {
+    position: absolute;
+    bottom: 8%;
+    right: 25%;
+    width: 18rem;
+    height: 9rem;
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    width: 30rem;
+    height: 7rem;
     top: 55%;
   }
 }
