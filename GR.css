@@ -137,3 +137,79 @@ input::-webkit-inner-spin-button {
   border-radius: 50%;
   margin-bottom: 2rem;
 }
+
+/* MOBILE */
+@media (max-width: 34em) {
+  .left {
+  }
+  .right {
+    width: 1rem;
+    height: 1rem;
+  }
+  .pic {
+    position: absolute;
+    width: 10rem;
+    height: 8.9rem;
+    top: 57%;
+    right: 29%;
+  }
+  .guess {
+    text-align: start;
+    width: 20rem;
+    height: 10rem;
+  }
+  .scorehigh {
+    width: 20rem;
+    height: 10rem;
+  }
+  .number {
+    font-size: 8rem;
+    height: 12rem;
+    width: 8rem;
+  }
+  .scheck {
+    width: 20rem;
+    height: 10rem;
+  }
+  .message {
+    position: absolute;
+    font-size: 2.2rem;
+    width: 29.5rem;
+    height: 10rem;
+    top: 43%;
+    left: 16%;
+  }
+  .main {
+    width: 20rem;
+    height: 10rem;
+  }
+  .again {
+    font-size: 2.3rem;
+    width: 20rem;
+    height: 8rem;
+  }
+  .between {
+    font-size: 2.3rem;
+    width: 20rem;
+    height: 8rem;
+  }
+  .score,
+  .scoreN,
+  .highscoreN,
+  .highscore {
+    font-size: 2.5rem;
+  }
+  .scorehigh {
+    position: absolute;
+    bottom: 8%;
+    right: 25%;
+    width: 22rem;
+    height: 11rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    width: 20rem;
+    height: 10rem;
+    top: 55%;
+  }
+}
